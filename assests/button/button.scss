@@ -1,0 +1,23 @@
+@mixin btn() {
+   right: 85px;
+      top: 60px;
+      position: relative;
+      height: 54px;
+      width: 298px;
+      border-radius: 25px;
+      border: none;
+      background-color: $orange;
+      font-family: Roboto-Medium;
+      font-size: 16px;
+      color: white;
+      text-transform: uppercase;
+      &:hover {
+         cursor: pointer;
+         box-shadow: 0 5px 15px #0000004d;
+         background-color: #E47209;
+      }
+
+      &:active {
+         background-color: $green;
+      }
+}
